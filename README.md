@@ -1,7 +1,12 @@
 munin Twilio SMS script
 ======================
 
-This is a tiny bash script to send a munin alert via Twilio SMS service to your mobile phone. It's tested under Debian Wheezy, but with small modifications it should run on any other Linux distribution where munin runs on.
+This is a tiny bash script to send a munin alert via Twilio SMS service to your mobile phone. It's tested under Debian Wheezy, but with small modifications it should run on any other Linux distribution where munin runs on. The script gets the munin notification body via STDIN and sends it with curl to the Twilio API. So you have to create a Twilio account with charged balance.
+
+Requirements
+----------------------
+* munin
+* curl
 
 Installation
 ----------------------
