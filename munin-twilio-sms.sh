@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Author: Patrick Baber
+#License: GPL version 3
+
 #Script sends a message via the SMS service provider Twilio. It needs a verified Twillio account and charged balance within.
 
 #Phone number of recipient as string in international format, e.g. +4930123456
